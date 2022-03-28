@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>mypokes.Vaporeon</OriginalElement>
+  <nodes>
+    <node x="0.0" y="485.0">mypokes.Floette</node>
+    <node x="228.00000000000003" y="485.0">mypokes.Vaporeon</node>
+    <node x="788.0" y="80.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="0.0" y="565.0">mypokes.Florges</node>
+    <node x="0.0" y="405.0">mypokes.Flabebe</node>
+    <node x="240.00000000000003" y="405.0">mypokes.Eevee</node>
+    <node x="552.0" y="170.0">moves.Confide</node>
+    <node x="404.0" y="170.0">moves.Supersonic</node>
+    <node x="124.0" y="405.0">mypokes.Phione</node>
+    <node x="459.97142857142865" y="0.0">ru.ifmo.se.pokemon.Move</node>
+    <node x="127.76190476190476" y="80.0">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="0.0" y="250.0">moves.Moonblast</node>
+    <node x="924.0" y="170.0">moves.Double_Team</node>
+    <node x="385.0" y="325.0">com.pokemons.Pokegram</node>
+    <node x="248.0" y="250.0">moves.Razor_Leaf</node>
+    <node x="54.0" y="170.0">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="676.0" y="170.0">moves.Work_Up</node>
+    <node x="120.0" y="325.0">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="140.0" y="250.0">moves.Scald</node>
+    <node x="240.0" y="170.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="1180.0" y="170.0">moves.Calm_Mind</node>
+    <node x="800.0" y="170.0">moves.Swagger</node>
+    <node x="1080.0" y="170.0">moves.Rest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mypokes.Vaporeon" target="mypokes.Eevee">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="moves.Scald" target="ru.ifmo.se.pokemon.SpecialMove">
+      <point x="0.0" y="-15.0" />
+      <point x="184.0" y="225.0" />
+      <point x="156.0" y="225.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove">
+      <point x="0.0" y="-15.0" />
+      <point x="312.0" y="150.0" />
+      <point x="223.76190476190476" y="150.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="mypokes.Floette" target="mypokes.Flabebe">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="moves.Calm_Mind" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="1240.0" y="130.0" />
+      <point x="906.8571428571429" y="130.0" />
+      <point x="54.85714285714289" y="15.0" />
+    </edge>
+    <edge source="moves.Moonblast" target="ru.ifmo.se.pokemon.SpecialMove">
+      <point x="0.0" y="-15.0" />
+      <point x="60.0" y="225.0" />
+      <point x="88.0" y="225.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="mypokes.Flabebe" target="ru.ifmo.se.pokemon.Pokemon">
+      <point x="0.0" y="-15.0" />
+      <point x="52.0" y="380.0" />
+      <point x="137.33333333333334" y="380.0" />
+      <point x="-34.66666666666666" y="15.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move">
+      <point x="0.0" y="-15.0" />
+      <point x="852.0" y="55.0" />
+      <point x="519.9714285714285" y="55.0" />
+      <point x="19.999999999999943" y="15.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove">
+      <point x="0.0" y="-15.0" />
+      <point x="122.0" y="150.0" />
+      <point x="159.76190476190476" y="150.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="moves.Work_Up" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="728.0" y="150.0" />
+      <point x="833.7142857142858" y="150.0" />
+      <point x="-18.28571428571422" y="15.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move">
+      <point x="0.0" y="-15.0" />
+      <point x="191.76190476190476" y="55.0" />
+      <point x="479.97142857142865" y="55.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="moves.Razor_Leaf" target="ru.ifmo.se.pokemon.PhysicalMove">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mypokes.Florges" target="mypokes.Floette">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mypokes.Phione" target="ru.ifmo.se.pokemon.Pokemon">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="moves.Double_Team" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="992.0" y="150.0" />
+      <point x="870.2857142857143" y="150.0" />
+      <point x="18.285714285714334" y="15.0" />
+    </edge>
+    <edge source="mypokes.Eevee" target="ru.ifmo.se.pokemon.Pokemon">
+      <point x="0.0" y="-15.0" />
+      <point x="284.0" y="380.0" />
+      <point x="206.66666666666666" y="380.0" />
+      <point x="34.66666666666666" y="15.0" />
+    </edge>
+    <edge source="moves.Rest" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="1120.0" y="140.0" />
+      <point x="888.5714285714286" y="140.0" />
+      <point x="36.571428571428555" y="15.0" />
+    </edge>
+    <edge source="moves.Swagger" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="moves.Confide" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="604.0" y="140.0" />
+      <point x="815.4285714285714" y="140.0" />
+      <point x="-36.571428571428555" y="15.0" />
+    </edge>
+    <edge source="moves.Supersonic" target="ru.ifmo.se.pokemon.StatusMove">
+      <point x="0.0" y="-15.0" />
+      <point x="468.0" y="130.0" />
+      <point x="797.1428571428571" y="130.0" />
+      <point x="-54.85714285714289" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.968939393939394" x="650.0" y="297.5" />
+  <SelectedNodes>
+    <node>mypokes.Vaporeon</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
