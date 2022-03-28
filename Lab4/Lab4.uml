@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Balance.CashBalance</OriginalElement>
+  <nodes>
+    <node x="404.44173015873025" y="381.0">java.lang.Throwable</node>
+    <node x="880.0" y="2004.5">TooManyLegsException</node>
+    <node x="1871.9417301587303" y="2306.0">StocksActions</node>
+    <node x="748.4139523809524" y="160.5">java.lang.Throwable.SentinelHolder</node>
+    <node x="975.6917301587303" y="2317.0">Shorty.Legs</node>
+    <node x="1563.502380952381" y="2554.0">Shorty</node>
+    <node x="632.0" y="2004.5">NotEnoughLegsException</node>
+    <node x="0.0" y="2004.5">NotEnoughMoneyException</node>
+    <node x="1469.35" y="1384.0">java.lang.Enum</node>
+    <node x="339.41395238095265" y="0.0">java.lang.Throwable.PrintStreamOrWriter</node>
+    <node x="2214.2941111111113" y="1849.0">GiganticPlantSociety</node>
+    <node x="2235.44173015873" y="1528.0">Balance.CashBalance</node>
+    <node x="1658.002380952381" y="3101.0">BalanceStatus</node>
+    <node x="1562.35" y="1915.5">Locations</node>
+    <node x="199.41395238095265" y="149.0">java.lang.Throwable.WrappedPrintWriter</node>
+    <node x="1230.4417301587303" y="2317.0">RobberyAttemptException</node>
+    <node x="1601.1386666666667" y="2317.0">Shorty.IPosition</node>
+    <node x="1117.0" y="1949.0">java.lang.RuntimeException</node>
+    <node x="475.4139523809524" y="149.0">java.lang.Throwable.WrappedPrintStream</node>
+    <node x="649.4417301587303" y="1484.0">java.lang.Exception</node>
+    <node x="1544.35" y="195.0">java.io.Serializable</node>
+    <node x="2157.94173015873" y="2284.0">MoneyActions</node>
+    <node x="1827.844111111111" y="1539.5">Balance.BankBalance</node>
+    <node x="1499.85" y="800.5">java.lang.Comparable</node>
+    <node x="2054.6387777777777" y="789.0">Balance</node>
+    <node x="1676.502380952381" y="3245.0">Main</node>
+    <node x="260.0" y="2004.5">ShortyIsNotInSuitableLocationException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Throwable.SentinelHolder" target="java.lang.Throwable.SentinelHolder">
+      <point x="-113.66666666666663" y="49.5" />
+      <point x="805.2472857142858" y="279.5" />
+      <point x="728.4139523809524" y="279.5" />
+      <point x="728.4139523809524" y="210.0" />
+      <point x="-170.5" y="-0.0" />
+    </edge>
+    <edge source="Main" target="Balance.CashBalance">
+      <point x="68.75" y="-27.0" />
+      <point x="1820.252380952381" y="3225.0" />
+      <point x="2637.65" y="3225.0" />
+      <point x="2637.65" y="1789.0" />
+      <point x="2401.0417301587304" y="1789.0" />
+      <point x="73.59999999999991" y="38.5" />
+    </edge>
+    <edge source="Main" target="Locations">
+      <point x="-31.25" y="-27.0" />
+      <point x="1720.252380952381" y="3195.0" />
+      <point x="489.94173015873025" y="3195.0" />
+      <point x="489.94173015873025" y="2264.0" />
+      <point x="1584.85" y="2264.0" />
+      <point x="-67.5" y="116.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable">
+      <point x="267.55555555555566" y="-446.5" />
+      <point x="972.9972857142859" y="361.0" />
+      <point x="1580.35" y="361.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="Shorty" target="NotEnoughLegsException">
+      <point x="-143.2380952380954" y="-248.5" />
+      <point x="1608.2642857142855" y="2514.0" />
+      <point x="827.6679206349206" y="2514.0" />
+      <point x="827.6679206349206" y="2254.0" />
+      <point x="803.0" y="2254.0" />
+      <point x="57.0" y="27.0" />
+    </edge>
+    <edge source="Balance.CashBalance" target="Balance">
+      <point x="-61.333333333333485" y="-38.5" />
+      <point x="2266.108396825397" y="1364.0" />
+      <point x="2143.8887777777777" y="1364.0" />
+      <point x="12.75" y="38.5" />
+    </edge>
+    <edge source="Main" target="GiganticPlantSociety">
+      <point x="31.25" y="-27.0" />
+      <point x="1782.752380952381" y="3195.0" />
+      <point x="2541.56673015873" y="3195.0" />
+      <point x="2541.56673015873" y="2254.0" />
+      <point x="2428.0441111111113" y="2254.0" />
+      <point x="71.25" y="182.5" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception">
+      <point x="-116.0" y="-82.5" />
+      <point x="1175.0" y="1809.0" />
+      <point x="907.8417301587301" y="1809.0" />
+      <point x="106.39999999999986" y="82.5" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable.WrappedPrintWriter">
+      <point x="-267.55555555555566" y="-446.5" />
+      <point x="437.8861746031746" y="361.0" />
+      <point x="311.41395238095265" y="361.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable.PrintStreamOrWriter">
+      <point x="-133.77777777777783" y="-446.5" />
+      <point x="571.6639523809524" y="341.0" />
+      <point x="433.91395238095254" y="341.0" />
+      <point x="433.91395238095254" y="124.0" />
+      <point x="414.41395238095265" y="124.0" />
+      <point x="-25.0" y="49.5" />
+    </edge>
+    <edge source="NotEnoughMoneyException" target="java.lang.Exception">
+      <point x="60.0" y="-27.0" />
+      <point x="180.0" y="1799.0" />
+      <point x="695.0417301587302" y="1799.0" />
+      <point x="-106.40000000000009" y="82.5" />
+    </edge>
+    <edge source="java.lang.Throwable.PrintStreamOrWriter" target="java.lang.Throwable">
+      <point x="25.0" y="49.5" />
+      <point x="464.41395238095265" y="124.0" />
+      <point x="444.91395238095254" y="124.0" />
+      <point x="444.91395238095254" y="331.0" />
+      <point x="638.5528412698413" y="331.0" />
+      <point x="-66.88888888888891" y="-446.5" />
+    </edge>
+    <edge source="Main" target="Shorty">
+      <point x="-18.75" y="-27.0" />
+      <point x="1732.752380952381" y="3185.0" />
+      <point x="1647.502380952381" y="3185.0" />
+      <point x="1647.502380952381" y="3076.0" />
+      <point x="1626.1690476190474" y="3076.0" />
+      <point x="-125.33333333333326" y="248.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Enum">
+      <point x="-61.0" y="182.5" />
+      <point x="1530.35" y="1769.0" />
+      <point x="1449.35" y="1769.0" />
+      <point x="1449.35" y="1566.5" />
+      <point x="-122.0" y="-0.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable">
+      <point x="0.0" y="446.5" />
+      <point x="705.4417301587303" y="1324.0" />
+      <point x="354.44173015873025" y="1324.0" />
+      <point x="354.44173015873025" y="492.625" />
+      <point x="-301.0" y="-334.875" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintWriter" target="java.lang.Throwable">
+      <point x="74.66666666666674" y="61.0" />
+      <point x="386.0806190476194" y="351.0" />
+      <point x="504.7750634920635" y="351.0" />
+      <point x="-200.66666666666674" y="-446.5" />
+    </edge>
+    <edge source="Shorty" target="Shorty.IPosition">
+      <point x="-17.904761904761926" y="-248.5" />
+      <point x="1733.597619047619" y="2444.0" />
+      <point x="1633.8886666666667" y="2444.0" />
+      <point x="-32.75" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="NotEnoughMoneyException">
+      <point x="-179.04761904761926" y="-248.5" />
+      <point x="1572.4547619047617" y="2534.0" />
+      <point x="505.1679206349206" y="2534.0" />
+      <point x="505.1679206349206" y="2234.0" />
+      <point x="180.0" y="2234.0" />
+      <point x="60.0" y="27.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-61.0" y="-182.5" />
+      <point x="1530.35" y="1364.0" />
+      <point x="1570.85" y="1364.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Locations" target="java.lang.Enum">
+      <point x="0.0" y="-116.0" />
+      <point x="61.0" y="182.5" />
+    </edge>
+    <edge source="Main" target="ShortyIsNotInSuitableLocationException">
+      <point x="-56.25" y="-27.0" />
+      <point x="1695.252380952381" y="3215.0" />
+      <point x="167.30544444444467" y="3215.0" />
+      <point x="167.30544444444467" y="2244.0" />
+      <point x="348.0" y="2244.0" />
+      <point x="-88.0" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="Shorty.Legs">
+      <point x="-125.33333333333348" y="-248.5" />
+      <point x="1626.1690476190474" y="2504.0" />
+      <point x="986.1917301587303" y="2504.0" />
+      <point x="-31.5" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="StocksActions">
+      <point x="125.33333333333326" y="-248.5" />
+      <point x="1876.835714285714" y="2504.0" />
+      <point x="2004.4417301587303" y="2504.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintStream" target="java.lang.Throwable">
+      <point x="77.66666666666674" y="61.0" />
+      <point x="669.5806190476192" y="311.0" />
+      <point x="772.3306190476192" y="311.0" />
+      <point x="66.88888888888891" y="-446.5" />
+    </edge>
+    <edge source="Shorty.IPosition" target="Locations">
+      <point x="0.0" y="-27.0" />
+      <point x="1666.6386666666667" y="2264.0" />
+      <point x="1629.85" y="2264.0" />
+      <point x="-22.5" y="116.0" />
+    </edge>
+    <edge source="Shorty" target="Balance.BankBalance">
+      <point x="53.71428571428578" y="-248.5" />
+      <point x="1805.2166666666667" y="2534.0" />
+      <point x="1802.4417301587303" y="2534.0" />
+      <point x="1802.4417301587303" y="1789.0" />
+      <point x="1855.344111111111" y="1789.0" />
+      <point x="-55.0" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="MoneyActions">
+      <point x="161.1428571428571" y="-248.5" />
+      <point x="1912.6452380952378" y="2524.0" />
+      <point x="2314.94173015873" y="2524.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Shorty" target="RobberyAttemptException">
+      <point x="-35.80952380952385" y="-248.5" />
+      <point x="1715.692857142857" y="2454.0" />
+      <point x="1346.4417301587303" y="2454.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintStream" target="java.lang.Throwable.PrintStreamOrWriter">
+      <point x="0.0" y="-61.0" />
+      <point x="591.9139523809524" y="124.0" />
+      <point x="514.4139523809527" y="124.0" />
+      <point x="75.0" y="49.5" />
+    </edge>
+    <edge source="StocksActions" target="GiganticPlantSociety">
+      <point x="0.0" y="-38.0" />
+      <point x="2004.4417301587303" y="2254.0" />
+      <point x="2238.0441111111113" y="2254.0" />
+      <point x="-118.75" y="182.5" />
+    </edge>
+    <edge source="Main" target="BalanceStatus">
+      <point x="-6.25" y="-27.0" />
+      <point x="1745.252380952381" y="3175.0" />
+      <point x="1704.752380952381" y="3175.0" />
+      <point x="-46.75" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="Locations">
+      <point x="35.80952380952385" y="-248.5" />
+      <point x="1787.3119047619048" y="2534.0" />
+      <point x="1778.9417301587303" y="2534.0" />
+      <point x="1778.9417301587303" y="2254.0" />
+      <point x="1719.85" y="2254.0" />
+      <point x="67.5" y="116.0" />
+    </edge>
+    <edge source="GiganticPlantSociety" target="Shorty">
+      <point x="23.75" y="182.5" />
+      <point x="2380.5441111111113" y="2264.0" />
+      <point x="2482.44173015873" y="2264.0" />
+      <point x="2482.44173015873" y="2534.0" />
+      <point x="1930.5499999999997" y="2534.0" />
+      <point x="179.04761904761904" y="-248.5" />
+    </edge>
+    <edge source="RobberyAttemptException" target="java.lang.RuntimeException">
+      <point x="-58.0" y="-27.0" />
+      <point x="1288.4417301587303" y="2254.0" />
+      <point x="1204.0" y="2254.0" />
+      <point x="-87.0" y="82.5" />
+    </edge>
+    <edge source="TooManyLegsException" target="java.lang.Exception">
+      <point x="-54.25" y="-27.0" />
+      <point x="934.25" y="1829.0" />
+      <point x="847.0417301587302" y="1829.0" />
+      <point x="45.59999999999991" y="82.5" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable.WrappedPrintStream">
+      <point x="0.0" y="-446.5" />
+      <point x="705.4417301587303" y="321.0" />
+      <point x="591.9139523809524" y="321.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="MoneyActions" target="GiganticPlantSociety">
+      <point x="0.0" y="-60.0" />
+      <point x="2314.94173015873" y="2264.0" />
+      <point x="2333.0441111111113" y="2264.0" />
+      <point x="-23.75" y="182.5" />
+    </edge>
+    <edge source="Balance.BankBalance" target="Balance">
+      <point x="55.0" y="-27.0" />
+      <point x="1965.344111111111" y="1364.0" />
+      <point x="2118.3887777777777" y="1364.0" />
+      <point x="-12.75" y="38.5" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintStream" target="java.lang.Throwable.WrappedPrintStream">
+      <point x="-77.66666666666663" y="61.0" />
+      <point x="514.2472857142858" y="291.0" />
+      <point x="455.4139523809524" y="291.0" />
+      <point x="455.4139523809524" y="210.0" />
+      <point x="-116.5" y="-0.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Throwable.SentinelHolder">
+      <point x="133.77777777777783" y="-446.5" />
+      <point x="839.2195079365081" y="341.0" />
+      <point x="918.9139523809524" y="341.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="76.0" y="-82.5" />
+      <point x="172.0" y="446.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="61.0" y="-182.5" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="Shorty" target="TooManyLegsException">
+      <point x="-53.71428571428578" y="-248.5" />
+      <point x="1697.7880952380951" y="2464.0" />
+      <point x="1070.1917301587303" y="2464.0" />
+      <point x="1070.1917301587303" y="2254.0" />
+      <point x="1042.75" y="2254.0" />
+      <point x="54.25" y="27.0" />
+    </edge>
+    <edge source="GiganticPlantSociety" target="Balance.CashBalance">
+      <point x="-71.25" y="-182.5" />
+      <point x="2285.5441111111113" y="1829.0" />
+      <point x="2327.44173015873" y="1829.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Throwable">
+      <point x="116.0" y="-82.5" />
+      <point x="1407.0" y="1829.0" />
+      <point x="1361.85" y="1829.0" />
+      <point x="1361.85" y="1364.0" />
+      <point x="963.4417301587303" y="1364.0" />
+      <point x="258.0" y="446.5" />
+    </edge>
+    <edge source="ShortyIsNotInSuitableLocationException" target="java.lang.Exception">
+      <point x="88.0" y="-27.0" />
+      <point x="524.0" y="1819.0" />
+      <point x="755.8417301587303" y="1819.0" />
+      <point x="-45.59999999999991" y="82.5" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintWriter" target="java.lang.Throwable.WrappedPrintWriter">
+      <point x="-74.66666666666674" y="61.0" />
+      <point x="236.7472857142859" y="291.0" />
+      <point x="179.41395238095265" y="291.0" />
+      <point x="179.41395238095265" y="210.0" />
+      <point x="-112.0" y="-0.0" />
+    </edge>
+    <edge source="Shorty.IPosition" target="Shorty">
+      <point x="32.75" y="27.0" />
+      <point x="1699.3886666666667" y="2434.0" />
+      <point x="1751.502380952381" y="2434.0" />
+      <point x="0.0" y="-248.5" />
+    </edge>
+    <edge source="java.lang.Throwable.WrappedPrintWriter" target="java.lang.Throwable.PrintStreamOrWriter">
+      <point x="0.0" y="-61.0" />
+      <point x="311.41395238095265" y="124.0" />
+      <point x="364.41395238095265" y="124.0" />
+      <point x="-75.0" y="49.5" />
+    </edge>
+    <edge source="Shorty" target="GiganticPlantSociety">
+      <point x="143.23809523809518" y="-248.5" />
+      <point x="1894.7404761904759" y="2514.0" />
+      <point x="2147.44173015873" y="2514.0" />
+      <point x="2147.44173015873" y="2264.0" />
+      <point x="2285.5441111111113" y="2264.0" />
+      <point x="-71.25" y="182.5" />
+    </edge>
+    <edge source="Shorty" target="ShortyIsNotInSuitableLocationException">
+      <point x="-161.14285714285734" y="-248.5" />
+      <point x="1590.3595238095236" y="2524.0" />
+      <point x="682.6679206349206" y="2524.0" />
+      <point x="682.6679206349206" y="2244.0" />
+      <point x="524.0" y="2244.0" />
+      <point x="88.0" y="27.0" />
+    </edge>
+    <edge source="NotEnoughLegsException" target="java.lang.Exception">
+      <point x="-57.0" y="-27.0" />
+      <point x="689.0" y="1829.0" />
+      <point x="786.2417301587302" y="1829.0" />
+      <point x="-15.200000000000045" y="82.5" />
+    </edge>
+    <edge source="Main" target="NotEnoughLegsException">
+      <point x="-43.75" y="-27.0" />
+      <point x="1707.752380952381" y="3205.0" />
+      <point x="343.3054444444447" y="3205.0" />
+      <point x="343.3054444444447" y="2254.0" />
+      <point x="689.0" y="2254.0" />
+      <point x="-57.0" y="27.0" />
+    </edge>
+    <edge source="java.lang.Throwable.SentinelHolder" target="java.lang.Throwable">
+      <point x="113.66666666666674" y="49.5" />
+      <point x="1032.5806190476192" y="351.0" />
+      <point x="906.108396825397" y="351.0" />
+      <point x="200.66666666666674" y="-446.5" />
+    </edge>
+    <edge source="BalanceStatus" target="Shorty">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="248.5" />
+    </edge>
+    <edge source="Main" target="NotEnoughMoneyException">
+      <point x="-68.75" y="-27.0" />
+      <point x="1682.752380952381" y="3225.0" />
+      <point x="133.2886666666668" y="3225.0" />
+      <point x="133.2886666666668" y="2264.0" />
+      <point x="60.0" y="2264.0" />
+      <point x="-60.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="Balance.BankBalance">
+      <point x="56.25" y="-27.0" />
+      <point x="1807.752380952381" y="3215.0" />
+      <point x="2563.56673015873" y="3215.0" />
+      <point x="2563.56673015873" y="1799.0" />
+      <point x="1965.344111111111" y="1799.0" />
+      <point x="55.0" y="27.0" />
+    </edge>
+    <edge source="Shorty" target="Balance.CashBalance">
+      <point x="89.52380952380963" y="-248.5" />
+      <point x="1841.0261904761905" y="2534.0" />
+      <point x="1850.4417301587303" y="2534.0" />
+      <point x="1850.4417301587303" y="1809.0" />
+      <point x="2253.8417301587306" y="1809.0" />
+      <point x="-73.59999999999991" y="38.5" />
+    </edge>
+    <edge source="Shorty.Legs" target="Shorty">
+      <point x="10.5" y="27.0" />
+      <point x="1028.1917301587303" y="2484.0" />
+      <point x="1661.9785714285713" y="2484.0" />
+      <point x="-89.52380952380963" y="-248.5" />
+    </edge>
+    <edge source="Shorty.Legs" target="TooManyLegsException">
+      <point x="0.0" y="-27.0" />
+      <point x="1017.6917301587303" y="2254.0" />
+      <point x="934.25" y="2254.0" />
+      <point x="-54.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.1" x="2943.333333333332" y="2155.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
