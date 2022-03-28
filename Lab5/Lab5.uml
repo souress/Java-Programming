@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3353.0" y="795.0">commands.RemoveByIdCommand</node>
+    <node x="1536.0" y="962.0">utils.readers.PrimitiveDoubleReader</node>
+    <node x="0.0" y="962.0">utils.FileManager</node>
+    <node x="2794.0" y="962.0">utils.ConsoleManager</node>
+    <node x="3926.0" y="795.0">commands.AddIfMaxCommand</node>
+    <node x="541.9999999999998" y="795.0">commands.RemoveLowerCommand</node>
+    <node x="4214.0" y="795.0">commands.FilterStartsWithNameCommand</node>
+    <node x="2313.0" y="962.0">utils.readers.ColorReader</node>
+    <node x="271.0" y="795.0">commands.SaveCommand</node>
+    <node x="659.0" y="962.0">utils.PersonCreator</node>
+    <node x="1123.9999999999998" y="795.0">commands.PrintFieldDescendingHeightCommand</node>
+    <node x="852.9999999999998" y="795.0">commands.ShowCommand</node>
+    <node x="2050.0" y="795.0">commands.ExecuteScriptCommand</node>
+    <node x="0.0" y="795.0">commands.InfoCommand</node>
+    <node x="992.0" y="962.0">utils.readers.CountryReader</node>
+    <node x="4562.0" y="795.0">commands.ExitCommand</node>
+    <node x="299.0" y="0.0">utils.CollectionManager</node>
+    <node x="0.0" y="0.0">commands.utils.CommandReceiver</node>
+    <node x="297.0" y="962.0">commands.utils.CommandInvoker</node>
+    <node x="2068.0" y="962.0">utils.readers.PrimitiveLongReader</node>
+    <node x="1507.9999999999998" y="795.0">commands.ClearCommand</node>
+    <node x="3655.0" y="795.0">commands.HelpCommand</node>
+    <node x="2552.0" y="962.0">utils.readers.StringReader</node>
+    <node x="2225.0" y="497.0">commands.AbstractCommand</node>
+    <node x="1815.0" y="962.0">utils.readers.PrimitiveFloatReader</node>
+    <node x="3035.0" y="795.0">commands.RemoveGreaterCommand</node>
+    <node x="2632.0" y="795.0">commands.PrintFieldDescendingPassportIdCommand</node>
+    <node x="1778.9999999999998" y="795.0">commands.AddCommand</node>
+    <node x="2357.0" y="795.0">commands.UpdateCommand</node>
+    <node x="3033.0" y="962.0">Main</node>
+    <node x="1243.0" y="962.0">utils.readers.RefLongReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.AddIfMaxCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="4060.0" y="725.0" />
+      <point x="2417.375" y="725.0" />
+      <point x="78.375" y="94.0" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="125.5" y="705.0" />
+      <point x="2232.125" y="705.0" />
+      <point x="-106.875" y="94.0" />
+    </edge>
+    <edge source="commands.ShowCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="978.4999999999998" y="735.0" />
+      <point x="2274.875" y="735.0" />
+      <point x="-64.125" y="94.0" />
+    </edge>
+    <edge source="commands.RemoveGreaterCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="3184.0" y="755.0" />
+      <point x="2374.625" y="755.0" />
+      <point x="35.625" y="94.0" />
+    </edge>
+    <edge source="commands.PrintFieldDescendingPassportIdCommand" target="commands.AbstractCommand">
+      <point x="-2.2737367544323206E-13" y="-61.0" />
+      <point x="2823.4999999999995" y="765.0" />
+      <point x="2360.375" y="765.0" />
+      <point x="21.375" y="94.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="1633.4999999999998" y="755.0" />
+      <point x="2303.375" y="755.0" />
+      <point x="-35.625" y="94.0" />
+    </edge>
+    <edge source="commands.PrintFieldDescendingHeightCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="1305.9999999999998" y="745.0" />
+      <point x="2289.125" y="745.0" />
+      <point x="-49.875" y="94.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="3494.0" y="745.0" />
+      <point x="2388.875" y="745.0" />
+      <point x="49.875" y="94.0" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="1904.4999999999998" y="765.0" />
+      <point x="2317.625" y="765.0" />
+      <point x="-21.375" y="94.0" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="396.5" y="715.0" />
+      <point x="2246.375" y="715.0" />
+      <point x="-92.625" y="94.0" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="3780.5" y="735.0" />
+      <point x="2403.125" y="735.0" />
+      <point x="64.125" y="94.0" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="2193.5" y="775.0" />
+      <point x="2331.875" y="775.0" />
+      <point x="-7.125" y="94.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="2484.5" y="775.0" />
+      <point x="2346.125" y="775.0" />
+      <point x="7.125" y="94.0" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="4687.5" y="705.0" />
+      <point x="2445.875" y="705.0" />
+      <point x="106.875" y="94.0" />
+    </edge>
+    <edge source="commands.RemoveLowerCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="687.4999999999998" y="725.0" />
+      <point x="2260.625" y="725.0" />
+      <point x="-78.375" y="94.0" />
+    </edge>
+    <edge source="commands.FilterStartsWithNameCommand" target="commands.AbstractCommand">
+      <point x="0.0" y="-61.0" />
+      <point x="4378.0" y="715.0" />
+      <point x="2431.625" y="715.0" />
+      <point x="92.625" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.20000000000000015" x="2799.071428571423" y="508.99999999999864" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
